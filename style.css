@@ -1,0 +1,139 @@
+:root {
+  /* Primary colors */
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --brightBlueTransparent: hsl(245, 75%, 52%, 70%);
+  /* Neutral colors */
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darckBlue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--paleBlue);
+  background-image: url(./images/pattern-background-desktop.svg);
+}
+
+
+@media screen and (max-width: 500px) {
+  body { background-image: url(./images/pattern-background-mobile.svg); }
+}
+
+main {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  min-height: 95vh;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  max-width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 20px 1px rgb(175 175 175 / 50%);
+}
+
+.frame {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.frame > img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container {
+  padding: 30px 40px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+h1,h2,p { margin: 0; }
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--darckBlue);
+}
+
+p {
+  font-size: 16px;
+  color: var(--desaturatedBlue);
+}
+
+h1 + p {
+  padding: 0 10px;
+  margin-top: 0;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 10px;
+  background-color: var(--veryPaleBlue);
+}
+
+.item img { width: 2.5rem;}
+
+.plan {
+  width: 100%;
+  text-align: initial;
+  margin-left: 15px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 3px;
+  color: var(--darckBlue);
+}
+
+button {
+  cursor: pointer;
+  font-weight: 900;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.change  {
+  color: var(--brightBlue);
+  text-decoration: underline;
+}
+.change:hover  {
+  color: var(--brightBlueTransparent);
+  text-decoration: none;
+}
+
+.item ~ button {
+  padding: 12px;
+}
+
+.pay {
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: var(--brightBlue);
+  box-shadow: 0px 10px 20px 1px rgb(175 175 175 / 50%);
+}
+.pay:hover {background-color: var(--brightBlueTransparent);}
+
+.cancel { color: var(--desaturatedBlue); }
+.cancel:hover { color: var(--darckBlue); }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
