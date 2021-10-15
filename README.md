@@ -12,15 +12,15 @@ This project required basic knowledge of **HTML** and **CSS**.
 
 ## Table of contents ✨
 
-- [Overview 📑](#overview)
+- [Overview 📑](#overview-📑)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process 🦠](#my-process)
+- [My process 🦠](#my-process-🦠)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-- [Author 🙆](#author)
-- [Experience 🌱](#acknowledgments)
+- [Author 🙆](#author-🙆)
+- [Experience 🌱](#experience-🌱)
 
 ## Overview 📑
 
