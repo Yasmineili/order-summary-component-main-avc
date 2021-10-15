@@ -33,7 +33,7 @@ main {
 
 .card {
   max-width: 400px;
-  margin: 20px;
+  margin: 5px 20px 10px 20px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0px 10px 20px 1px rgb(175 175 175 / 50%);
@@ -46,12 +46,11 @@ main {
 
 .frame > img {
   width: 100%;
-  object-fit: cover;
   object-position: center;
 }
 
 .container {
-  padding: 30px 40px;
+  padding: 20px 30px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -61,7 +60,7 @@ h1,h2,p { margin: 0; }
 
 h1 {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 30px;
   font-weight: 900;
   color: var(--darckBlue);
@@ -84,7 +83,7 @@ h1 + p {
   align-items: center;
   flex-direction: row;
   padding: 20px;
-  margin: 25px 0;
+  margin: 20px 0;
   border-radius: 10px;
   background-color: var(--veryPaleBlue);
 }
