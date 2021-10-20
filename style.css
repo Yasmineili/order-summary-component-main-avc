@@ -10,6 +10,7 @@
 }
 
 body {
+  padding: 0.5rem 1rem;
   background-repeat: no-repeat;
   background-size: contain;
   background-color: var(--paleBlue);
@@ -22,18 +23,17 @@ body {
 }
 
 main {
-  align-items: center;
-  display: flex;
   margin: 0;
-  min-height: 95vh;
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   font-family: "Red Hat Display", sans-serif;
 }
 
 .card {
-  max-width: 400px;
-  margin: 5px 20px 10px 20px;
+  max-width: 25rem;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0px 10px 20px 1px rgb(175 175 175 / 50%);
@@ -50,7 +50,7 @@ main {
 }
 
 .container {
-  padding: 20px 30px;
+  padding: 2.3rem 2rem;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -60,7 +60,7 @@ h1,h2,p { margin: 0; }
 
 h1 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0.85rem;
   font-size: 30px;
   font-weight: 900;
   color: var(--darckBlue);
@@ -72,7 +72,7 @@ p {
 }
 
 h1 + p {
-  padding: 0 10px;
+  padding: 0 0.5rem;
   margin-top: 0;
   text-align: center;
   line-height: 1.4;
@@ -82,8 +82,8 @@ h1 + p {
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 1.3rem;
+  margin: 1.7rem 0;
   border-radius: 10px;
   background-color: var(--veryPaleBlue);
 }
@@ -93,12 +93,12 @@ h1 + p {
 .plan {
   width: 100%;
   text-align: initial;
-  margin-left: 15px;
+  margin-left: 0.86rem;
 }
 
 h2 {
   font-size: 16px;
-  margin-bottom: 3px;
+  margin-bottom: 0.1rem;
   color: var(--darckBlue);
 }
 
@@ -119,12 +119,12 @@ button {
 }
 
 .item ~ button {
-  padding: 12px;
+  padding: 0.72rem;
 }
 
 .pay {
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   border-radius: 10px;
   background-color: var(--brightBlue);
   box-shadow: 0px 10px 20px 1px rgb(175 175 175 / 50%);
